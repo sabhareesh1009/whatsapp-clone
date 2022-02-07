@@ -1,7 +1,9 @@
-import React from 'react';
+import styled from "styled-components";
 
-function sidebar() {
-  return <div></div>;
+function Sidebar() {
+  return <Container></Container>;
 }
 
-export default sidebar;
+export default Sidebar;
+
+const Container = styled.div``;
